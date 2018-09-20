@@ -30,3 +30,5 @@ mkdir -p $PREFIX/share/tessdata
 cd $PREFIX/share/tessdata
 curl -L -O "https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0-beta.1/eng.traineddata"
 curl -L -O "https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0-beta.1/osd.traineddata"
+curl -L -o eng_best.traineddata "https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata"
+curl -L -o osd_best.traineddata "https://github.com/tesseract-ocr/tessdata_best/raw/master/osd.traineddata"
