@@ -1,6 +1,6 @@
 {% set name = "tesseract" %}
-{% set version = "4.0.0b1" %}
-{% set sha256 = "122ded950050abba89897ce8cc9fe57b45149640c46d4baa5abfc7048d2e406a" %}
+{% set version = "4.0.0b4" %}
+{% set sha256 = "4ba08fba07897f9381855d35f755868c687aa74037a71b0e8a1a6aff3b350672" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ version }}.tar.gz
-  url: https://github.com/tesseract-ocr/tesseract/archive/4.0.0-beta.1.tar.gz
+  url: https://github.com/tesseract-ocr/tesseract/archive/4.0.0-beta.4.tar.gz
   sha256: {{ sha256 }}
   patches:
     - cmake.patch  # [win and py27]
@@ -76,4 +76,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - mcs07
+    - harvard-cid
