@@ -42,6 +42,10 @@ requirements:
     - libtiff
     - zlib
     - leptonica
+    - icu
+    - glib
+    - cairo
+    - pango
     - msinttypes  # [win and py27]
     - vc 9  # [win and py27]
     - vc 10  # [win and py34]
@@ -52,6 +56,10 @@ requirements:
     - libtiff
     - zlib
     - leptonica
+    - icu
+    - glib
+    - cairo
+    - pango
     - msinttypes  # [win and py27]
     - vc 9  # [win and py27]
     - vc 10  # [win and py34]

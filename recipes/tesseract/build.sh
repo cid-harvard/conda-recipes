@@ -23,6 +23,9 @@ LDFLAGS="-L$PREFIX/lib" CFLAGS="-I$PREFIX/include" make
 
 make install
 
+LDFLAGS="-L$PREFIX/lib" CFLAGS="-I$PREFIX/include" make training
+make training-install
+
 mkdir -p $PREFIX/share/tessdata
 cd $PREFIX/share/tessdata
 curl -L -O "https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0-beta.1/eng.traineddata"
